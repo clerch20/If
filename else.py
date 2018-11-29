@@ -8,4 +8,4 @@ while x == 1:
 	if reading == 1:
 		RPL.servoWrite(0, 1590)
 	else:
-		RPL.servoWrite(0, 1590)
+		RPL.servoWrite(0, 1410)
