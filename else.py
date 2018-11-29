@@ -1,4 +1,4 @@
-immport RoboPiLib as RPL
+import RoboPiLib as RPL
 import setup
 x = 1
 sensor_pin = 16 
