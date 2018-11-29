@@ -1,4 +1,5 @@
 import RoboPiLib as RPL
+RPL.int()
 import setup
 x = 1
 RPL.pinMode(16,RPL.INPUT)
