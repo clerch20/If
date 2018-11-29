@@ -5,7 +5,7 @@ sensor_pin = 16
 RPL.pinMode(sensor_pin,RPL.INPUT)
 while x == 1:
 	reading = RPL.digitalRead(sensor_pin)
-	if reading == 1
+	if reading == 1:
 		RPL.servoWrite(0, 1590)
 	else
 		RPL.servoWrite(0, 1590)
