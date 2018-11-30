@@ -7,7 +7,6 @@ LS = Pin
 RS = Pin
 RPL.pinMode(LS,RPL.INPUT)
 RPL.pinMode(RS,RPL.INPUT)
-
 def left():
      if readingL == 0:
           RPL.servoWrite(L,1410)
