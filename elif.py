@@ -1,8 +1,8 @@
 import RoboPiLib as RPL
 import setup
 x = 1
-LL = Pin 
-RR = Pin
+L = Pin 
+R = Pin
 LS = Pin
 RS = Pin
 RPL.pinMode(LS,RPL.INPUT)
