@@ -1,10 +1,10 @@
 import RoboPiLib as RPL
 import setup
 x = 1
-L = 15
-R = 16
-LS = Pin
-RS = Pin
+L = servo_2
+R = servo_1
+LS = 15
+RS = 16
 RPL.pinMode(LS,RPL.INPUT)
 RPL.pinMode(RS,RPL.INPUT)
 def left():
