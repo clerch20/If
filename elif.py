@@ -1,8 +1,8 @@
 import RoboPiLib as RPL
 import setup
 x = 1
-L = servo_2
-R = servo_1
+L = R2
+R = R1
 LS = 15
 RS = 16
 RPL.pinMode(LS,RPL.INPUT)
